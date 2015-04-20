@@ -1,0 +1,23 @@
+.slider {
+	width:800px;
+	height:300px;
+	margin:30px auto;
+}
+.slider div {
+	width: 100%;
+	height: 100%;
+	display: none;	
+}
+.slide-img-c li {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.shadow {
+	width: 800px;
+	height: 100px;
+	background-image: url('../img/shadow-2.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	margin: -40px auto;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+	<title>First Page</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/test.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/test.js"></script>
+	<script type="text/javascript" src="js/testing.js"></script>
+</head>
+	<body onload="start_slider();" >
+		<div class="jumbotron">
+			<header>
+				<div id="top" class="nav group">
+					<ul>
+						<li><a href="#cat">Categories</a></li>
+						<li><a href="#">Sign In</a></li>
+						<li><a href="#">Sign Up</a></li>
+					</ul>
+				</div>
+			</header>
+			<div class="heading">
+				<h1><span class="cap">E</span>xplore <span class="cap">Y</span>our <span class="cap">S</span>hopping <span class="cap">E</span>xperience <span class="cap">W</span>ith <span class="cap">U</span>s</h1>	
+			</div>
+			<!--<div class="secondary-content">
+				<form>
+					<input type="text" value="What to buy today">
+					<input type="button" href="#" value="Get It">
+				</form>
+			</div>-->
+			<div id="wrap">
+  				<form action="">
+  					<input id="search" name="search" type="text" placeholder="What're You looking for ?">
+  					<input id="search_submit" value="Rechercher" type="submit">
+  				</form>
+			</div>
+			<a href="#cat">
+			<img class="arrow" src="img/arrow.png" alt="Down arrow"></a>
+		</div>
+		<!--Second Page -->
+		<div id="cat" class="display-products">
+			<div class="menu group">
+				<ul>
+					<li><a href="#men">Men</a></li>
+					<li><a href="#women">Women</a></li>
+					<li><a href="#electronics">Electronics</a></li>
+					<li><a href="#home-app">Home Appliances</a></li>
+				</ul>	
+			</div>
+			<div class="sub-heading">
+				<h2>Deals Of the Day</h2>
+			</div>	
+			
+		<div class="slider">
+			<div class="slide active-slide">
+				<ul class="slide-img">
+					<li><a href="#"><img src="img/deals/img-1.jpg" /></a></li>
+				</ul>
+			</div>
+		
+			<div class="slide">
+				<ul class="slide-img">
+					<li><a href="#"><img src="img/deals/img-2.jpg" /></a></li>
+				</ul>
+			</div>
+			<div class="slide">
+				<ul class="slide-img">
+					<li><a href="#"><img src="img/deals/img-3.jpg" /></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="slider-nav">
+		  <a  class="arrow-prev"><img src="img/arrow-prev.png"></a>
+		  <ul class="slider-dots">
+		    <li class="dot active-dot">&bull;</li>
+		    <li class="dot">&bull;</li>
+		    <li class="dot">&bull;</li>
+		    <li class="dot">&bull;</li>
+		  </ul>
+		  <a class="arrow-next"><img src="img/arrow-next.png"></a>
+		</div>
+		<div class="gradient">
+			<h2 class="grad-heading">Unleash The Latest Fashion</h2>
+			<img class="down-arrow" src="img/down-arrow.gif" />
+		</div>
+	</div> 
+	<div class="categories">
+		<div id="men" class="sub-heading-top">
+			<h2>Mens</h2>
+		</div>
+		<div class="slider-cat m">
+			<div class="show" id="1">
+				<ul class="slide-img-c">	
+					<li><a href="#"><img src="img/mens/img-1.gif" width="98%" height="99%" text-align="center"></a></li>
+				</ul>
+			</div>
+
+			<div id="2">
+				<ul class="slide-img-c">
+					<li><a href="#"><img src="img/mens/img-2.gif" width="98%" height="99%" text-align="center"></a></li>
+				</ul>
+			</div>
+	
+			<div id="3">
+				<ul class="slide-img-c">
+					<li><a href="#"><img src="img/womens/img-2.gif" width="98%" height="99%" text-align="center"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="shadow"></div>
+
+		<div id="women" class="sub-heading-bottom">
+			<h2>Womens</h2>
+		</div>
+		<div class="slider-cat w">
+			<div class="show" id="1">
+				<ul class="slide-img-c">	
+					<li><a href="#"><img src="img/womens/img-1.gif" width="98%" height="99%" text-align="center"></a></li>
+				</ul>
+			</div>
+
+			<div id="2">
+				<ul class="slide-img-c">
+					<li><a href="#"><img src="img/womens/img-2.gif" width="98%" height="99%" text-align="center"></a></li>
+				</ul>
+			</div>
+	
+			<div id="3">
+				<ul class="slide-img-c">
+					<li><a href="#"><img src="img/womens/img-3.gif" width="98%" height="99%" text-align="center"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="shadow"></div>
+	</div>
+	<div class="categories">
+		<div id="electronics" class="sub-heading-top">
+			<h2>Electronics</h2>
+		</div>
+		<div class="slider-cat e">
+			<div class="show" id="1">
+				<ul class="slide-img-c">	
+					<li><a href="#"><img src="img/electronics/img-1.gif" width="98%" height="99%" text-align="center"></a></li>
+				</ul>
+			</div>
+
+			<div id="2">
+				<ul class="slide-img-c">
+					<li><a href="#"><img src="img/electronics/img-2.gif" width="98%" height="99%" text-align="center"></a></li>
+				</ul>
+			</div>
+	
+			<div id="3">
+				<ul class="slide-img-c">
+					<li><a href="#"><img src="img/electronics/img-3.gif" width="98%" height="99%" text-align="center"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="shadow"></div>
+	</div>
+	
+  </body>
+</html>
